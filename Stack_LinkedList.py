@@ -20,8 +20,7 @@ class Stack:
             return False
         
         
-#pushes items into the stack
-        
+#pushes items into the stack      
     def push(self, data):
         newNode = Node(data) #creates a node object
         if self.head == None: #checks to see if there is a head(value)
@@ -68,6 +67,4 @@ q.pop()
 q.printstack()
 q.pop()
 q.printstack()
-
-this is to commit 
         
